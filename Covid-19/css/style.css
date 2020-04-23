@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding: 1% 2%;
+	margin: auto;
+}
+p{
+	font-family: Verdana;
+}
+
+/*----------HEADER----------*/
+
+header{
+	margin: auto;
+	width: 100%;
+}
+header .head img{
+	border-radius: 10px;
+	width: 100%;
+}
+header .head{
+	margin-bottom: .5%;
+}
+
+/*----------NAV----------*/
+header nav{
+	background: #631620;
+	overflow: hidden;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 1%;
+	text-align: center;
+}
+header nav 	ul{
+	list-style: none;
+	display: inline-block;
+}
+header nav ul li{
+	float: left;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: Georgia;
+	vertical-align: middle;
+}
+header nav ul li a:hover{
+	background: #54131b;
+	border-radius: 5px;
+}
+
+/*----------CUERPO----------*/
+/*----------PRINCIPAL----------*/
+
+.cuerpo .principal{
+	width: 68%;
+	margin: auto;
+	float: left;
+	margin-right: 1%;
+}
+article{
+	padding: 1%;
+}
+h1{
+	text-align: center;
+	font-size: 145%;
+	margin-bottom: 1%;
+	font-family: Georgia;
+	color: black;
+}
+.cuerpo .principal article #main{
+	width: 100%;
+	float: left;
+}
+.cuerpo .principal article #main .concepto{
+	width: 70%;
+	float: left;
+}
+.cuerpo .principal article #main .concepto p{
+	font-size: 85%;
+	float: left;
+}
+.cuerpo .principal article #main #img{
+	float: left;
+	width: 30%;
+} 
+.cuerpo .principal article #main #img img{
+	width: 100%;
+	float: left;
+	margin-top: 30%;
+} 
+
+/*----------ASIDE----------*/
+
+.cuerpo aside{
+	width: 29%;
+	float: left;
+	background: #631620;
+	padding: .3%;
+	border-radius: 10px;
+	margin-bottom: .5%;
+}
+.cuerpo aside h2{
+	text-align: center;
+	margin-bottom: 1%;
+	color: white;
+	font-family: Georgia;
+}
+.cuerpo aside .imagen{
+	width: 100%;
+	border-radius: 10px;
+}
+#imagen1{
+	margin-bottom: 1%;
+}
+#imagen2{
+	margin-bottom: 0px;
+}
+
+/*----------PIE DE PAGINA----------*/
+
+footer{
+	background-color: #631620;
+	text-align: center;
+	color: white;
+	clear: both;
+	padding: 10px 0;
+	border-radius: 10px;
+	font-family: Georgia;
+}
+
+/*----------PAGINA DE CUIDADOS----------*/
+
+/*----------CUERPO----------*/
+
+#main .concepto ul li{
+	font-size: 85%;
+	font-family: Verdana;
+}
+article #main .concepto h2{
+	text-align: center;
+	font-size: 120%;
+	margin-bottom: 1%;
+	font-family: Georgia;
+	color: black;
+}
+
+/*----------PAGINA DE NOTICIAS----------*/
+
+/*----------CUERPO----------*/
+
+header .cuer{
+	width: 100%;
+	margin: auto;
+}
+.imagenn{
+	display: flex;
+	justify-content: center;
+}
+.imagenn img{
+	width: 50%;
+	margin-bottom: 1%;
+	border-radius: 5px;
+}
+.div h2{
+	text-align: center;
+	margin-bottom: 1%;
+	font-size: 150%;
+	font-family: Georgia;
+	color: black;
+}
+.texto{
+	width: 80%;
+	margin: 0% 10%;
+	border: solid;
+	padding: 1%;
+	border-radius: 10px;
+	border-color: #631620;
+	margin-bottom: 1%;
+}
+.texto p{
+	font-family: Verdana;
+	color: black;
+}
+
+/*----------SLIDER----------*/
+
+.aja{
+	margin-left: 25%;
+}
+.slider{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul{
+	display: flex;
+	padding: 0%;
+	width: 400%;
+	animation: cambiar 20s infinite;
+	animation-direction: alternate;
+}
+.slider li{
+	width: 100%;
+	list-style: none;
+}
+.slider img{
+	width: 70%;
+}
+@keyframes cambiar{
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+	
+}
